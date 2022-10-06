@@ -1,0 +1,73 @@
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  background-color: #131313;
+  padding: 30px;
+  border-top: 1px solid rgba(46, 46, 46, 0.5);
+}
+
+.footerSong {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 300px;
+}
+
+.footer_middle {
+  flex: 0.6;
+  max-width: 400px;
+  display: flex;
+  padding: 0 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_right > Slider {
+  width: 100px;
+  height: 25px;
+}
+
+.footer_right {
+  flex: 0.2;
+  display: flex;
+  /* padding: 0 25px; */
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.footer_right > * {
+  margin-right: 1vw;
+}
+
+.footer_icon {
+  color: #898989;
+}
+
+.footer_icon:hover {
+  transition: color 0.2s ease-in-out;
+  color: #fff;
+}
+
+.footer_albumLogo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.footer_songInfo > h4 {
+  margin-bottom: 5px;
+}
+
+.footer_songInfo > p {
+  font-size: 12px;
+}
